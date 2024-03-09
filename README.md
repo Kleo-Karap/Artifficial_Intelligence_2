@@ -17,3 +17,11 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
 - PyTorch
 - MatPlotLib & Scikit Learn Libraries for implementing the model and plotting graphs
 - NLTK for loading and preprocessing the data
+
+# Logistic Regression
+
+# Feeforward Neural Networks
+
+# Recurrent Neural Networks (RNNs) with LSTM/GRU cells
+
+# Finetuning GreekBERT/DistilGreekBERT 
