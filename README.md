@@ -1,6 +1,6 @@
 # Artifficial_Intelligence_2
 
-This repo contains code implementations and report for developing a multiclass sentiment classifier for tweets in the Greek language about the Greek General elections. For this project series 4 different approaches were followed, in order to showcase the evolution from training Machine Learning models to Deep Learning models up until finetuning Large Language models like BERT, which today(2024) is the new baseline. Projects 1-4 were implemented with the following algorithms and architectures:
+This repo contains code implementations and reports for developing a multiclass sentiment classifier for tweets in the Greek language about the Greek General elections. For this project series 4 different approaches were followed, in order to showcase the evolution from training Machine Learning models to Deep Learning models up until finetuning Large Language models like BERT, which today(2024) is the new baseline. Projects 1-4 were implemented with the following algorithms and architectures:
 
 1. Logistic Regression
 2. Feed Forward Neural Networks (FNNs)
