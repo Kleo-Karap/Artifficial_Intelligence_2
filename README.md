@@ -21,11 +21,14 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
 - Experiment Workflow
 - Chosen model
 # Feeforward Neural Networks
-
+- Experiment Workflow
+- Chosen model
 # Recurrent Neural Networks (RNNs) with LSTM/GRU cells
-
+- Experiment Workflow
+- Chosen model
 # Finetuning GreekBERT/DistilGreekBERT 
-
+- Experiment Workflow
+- Chosen model
 # Overal Comparison
 
 # Contributor Expectations 
