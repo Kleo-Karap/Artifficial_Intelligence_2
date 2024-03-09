@@ -17,9 +17,17 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
 - MatPlotLib & Scikit Learn Libraries for implementing the model and plotting graphs
 - NLTK for loading and preprocessing the data
 
-# Logistic Regression
-- Experiment Workflow
-- Chosen model
+# Logistic Regression 
+([Kaggle_competition](https://www.kaggle.com/competitions/ys19-2023-assignment-1))
+- Experiment Workflow: Uni-Bi-Trigrams with TF-IDF and Countvectorizer
+- Features: N_grams, count of positive, ount of negative words per tweet, tweet length in tokens
+- Hyperparameter tuning: GridSearchCV (cv=5)
+- Chosen model:
+  - TF-IDF (uni-grams)
+  - max features:1000
+  - C= 1.0
+  - solver: saga
+  - regularization: L1 (Lasso regression)
 # Feeforward Neural Networks
 - Experiment Workflow
 - Chosen model
