@@ -55,10 +55,20 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
 
 # Recurrent Neural Networks (RNNs) with LSTM/GRU cells
 ([Kaggle_competition](https://www.kaggle.com/competitions/ys19-2023-assignment-3))
-- Experiment Workflow
+- Experiment Workflow: Define a class that constructs a bi_RNN with LSTM/GRU cells
+- Embedding layer: 
 - Hyperparameter tuning:
   - Optuna search space: (num_hidden_layers: 1-3, embedding (hidden)size: 64-256, cell_type:GRU|LSTM, dropout_rate: 0.2-0.7, gadient_clipping: 1-5)
 - Chosen model
+  - bi_LSTM + Attention
+  - num_stacked_lstms: 2
+  - hidden_size: 133
+  - dropout: 0.23
+  - batch_size: 256
+  - lr: 1e-4
+  - gradient_clipping_threshold: 5.0
+  - epochs: 10
+  - Adam
 # Finetuning GreekBERT/DistilGreekBERT 
 ([Kaggle_competition](https://www.kaggle.com/competitions/ys19-2023-assignment-4a))
 - Experiment Workflow
