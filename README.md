@@ -14,6 +14,7 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
 - Google Colab was used for training and fine-tuning of the models.
 - Python > 3.6
 - PyTorch
+- Torchtext
 - MatPlotLib & Scikit Learn Libraries for implementing the model and plotting graphs
 - NLTK for loading and preprocessing the data
 
@@ -55,6 +56,8 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
 # Recurrent Neural Networks (RNNs) with LSTM/GRU cells
 ([Kaggle_competition](https://www.kaggle.com/competitions/ys19-2023-assignment-3))
 - Experiment Workflow
+- Hyperparameter tuning:
+  - Optuna search space: (num_hidden_layers: 1-3, embedding (hidden)size: 64-256, cell_type:GRU|LSTM, dropout_rate: 0.2-0.7, gadient_clipping: 1-5)
 - Chosen model
 # Finetuning GreekBERT/DistilGreekBERT 
 ([Kaggle_competition](https://www.kaggle.com/competitions/ys19-2023-assignment-4a))
