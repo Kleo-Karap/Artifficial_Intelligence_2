@@ -29,12 +29,15 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
   - solver: saga
   - regularization: L1 (Lasso regression)
 # Feeforward Neural Networks
+([Kaggle_competition](https://www.kaggle.com/competitions/ys19-2023-assignment-2))
 - Experiment Workflow
 - Chosen model
 # Recurrent Neural Networks (RNNs) with LSTM/GRU cells
+([Kaggle_competition](https://www.kaggle.com/competitions/ys19-2023-assignment-3))
 - Experiment Workflow
 - Chosen model
 # Finetuning GreekBERT/DistilGreekBERT 
+([Kaggle_competition](https://www.kaggle.com/competitions/ys19-2023-assignment-4a))
 - Experiment Workflow
 - Chosen model
 # Overal Comparison
