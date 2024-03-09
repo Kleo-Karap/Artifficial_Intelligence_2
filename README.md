@@ -12,8 +12,8 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
 [Department of Informatics](https://www.di.uoa.gr/en) in the University of Athens.
 
 # Development Environment and Libraries
-Google Colab was used for training and fine-tuning of the models.
-Python > 3.6
-PyTorch
-MatPlotLib & Scikit Learn Libraries for implementing the model and plotting graphs
-NLTK for loading and preprocessing the data
+- Google Colab was used for training and fine-tuning of the models.
+- Python > 3.6
+- PyTorch
+- MatPlotLib & Scikit Learn Libraries for implementing the model and plotting graphs
+- NLTK for loading and preprocessing the data
