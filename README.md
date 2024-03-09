@@ -77,14 +77,20 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
 ([Kaggle_competition](https://www.kaggle.com/competitions/ys19-2023-assignment-4a))
 - Experiment Workflow
   - Use the same experimentation settings in both BERT models: GreekBERT_uncased_v1 and DistilGREEK-BERT
-  - Find the hyperparameters
+  - Find those hyperparameters that minimize the validation loss and maximize validation accuracy in each language model.
 - Hyperparameter tuning:
   - Epochs:2,3,4
   - Learning rate: 5e-5,3e-5,2e-5
   - Batch_size: 16,32
 - Chosen models
-  **GreekBERT**
-  **DistilGreekBERT**
+  - **GreekBERT**
+    - Epochs:2
+    - Batch_size: 32
+    - Lr: 2e-5
+  - **DistilGreekBERT**
+    - Epochs:4
+    - Batch_size: 16
+    - Lr: 5e-5
 # Overal Comparison
 
 # Contributor Expectations 
