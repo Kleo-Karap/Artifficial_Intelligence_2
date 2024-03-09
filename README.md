@@ -10,3 +10,10 @@ This repo contains code implementations and report for developing a multiclass s
 
 All 4 projects were implemented in the framework of Kaggle competitions for the course of [Artifficial Intelligence II](https://www.di.uoa.gr/civis/courses/C02) of the 
 [Department of Informatics](https://www.di.uoa.gr/en) in the University of Athens.
+
+# Development Environment and Libraries
+Google Colab was used for training and fine-tuning of the models.
+Python > 3.6
+PyTorch
+MatPlotLib & Scikit Learn Libraries for implementing the model and plotting graphs
+NLTK for loading and preprocessing the data
