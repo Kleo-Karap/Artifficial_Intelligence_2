@@ -101,4 +101,7 @@ The GreekBERT model was the one to achieve the best performance in validation ac
 and false neutrals, making it hard to verify the applicability of the experimentation settings above.
 # Contributor Expectations 
 One step towards improving this project is definitely data curation and more in-depth exploration of the tweet content to understand deeper patterns indicating emotion and specific handling of tweets with no textual content, containing only links and hashtags.
-# References
+# References 
+Extensive literature list can be found in the last section of each report
+- [pytorch-sentiment-analysis](https://github.com/bentrevett/pytorch-sentiment-analysis/tree/main)
+- [Tutorial: Fine tuning BERT for Sentiment Analysis](https://skimai.com/fine-tuning-bert-for-sentiment-analysis/)
