@@ -39,7 +39,7 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
   - batch_size: 10, 128
 - Vectorization: Avg Word2Vec (200d)
 - Hyperparameter tuning:
-  - Optuna search space (num_layers: 1-3 , num_units: 4-128, dropout_rate: 0.2-0.5, optimizer: {Adam, RMSProp, SGD}, learning_rate: 1e-4 - 1e-1)
+  - [Optuna](https://optuna.org/) search space (num_layers: 1-3 , num_units: 4-128, dropout_rate: 0.2-0.5, optimizer: {Adam, RMSProp, SGD}, learning_rate: 1e-4 - 1e-1)
 - Chosen model
   - FFNN (RReLU)
   - n_layers: 1
@@ -51,7 +51,6 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
   - lr: 4e-3, scheduler: exponential (gamma=0.5)
   - batch_size: 128
   - output: softmax
-
 
 # Recurrent Neural Networks (RNNs) with LSTM/GRU cells
 ([Kaggle_competition](https://www.kaggle.com/competitions/ys19-2023-assignment-3))
