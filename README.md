@@ -62,6 +62,7 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
 - Embedding layer: Build Torchtext vocab and align it to my custom trained Word2Vec(200d) embeddings (vocab_size: 24032 tokens)
 - Hyperparameter tuning:
   - Optuna search space: (num_hidden_layers: 1-3, embedding (hidden)size: 64-256, cell_type:GRU|LSTM, dropout_rate: 0.2-0.7, gadient_clipping: 1-5)
+  - N_epochs: 10,20,40
 - Chosen model
   - bi_LSTM + Attention
   - num_stacked_lstms: 2
