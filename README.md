@@ -32,11 +32,27 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
 ([Kaggle_competition](https://www.kaggle.com/competitions/ys19-2023-assignment-2))
 - Experiment Workflow: FFNN with different:
   - activation functions: ReLU, Randomized Leaky ReLU, SELU (Self-normalizing neural nets)
-  - optimizers: Adam, RMSProp
   - weight initialization: He, Glorot, LeCun
   - regularization techniques: dropout, batch normalisation, StandardScaler
   - output activation function: sigmoid, softmax
+  - n_epochs: 10,40,50
+  - batch_size: 10, 128
+- Vectorization: Avg Word2Vec (200d)
+- Hyperparameter tuning:
+  - Optuna search space (num_layers: 1-3 , num_units: 4-128, dropout_rate: 0.2-0.5, optimizer: {Adam, RMSProp, SGD}, learning_rate: 1e-4 - 1e-1)
 - Chosen model
+  - FFNN (RReLU)
+  - n_layers: 1
+  - n_units_l0: 43
+  - RMSProp
+  - epochs: 50
+  - weight_initialisation: He
+  - regularization: Scaling (StandardScaler), Dropout (0.4), Batch Normalisation
+  - lr: 4e-3, scheduler: exponential (gamma=0.5)
+  - batch_size: 128
+  - output: softmax
+
+
 # Recurrent Neural Networks (RNNs) with LSTM/GRU cells
 ([Kaggle_competition](https://www.kaggle.com/competitions/ys19-2023-assignment-3))
 - Experiment Workflow
