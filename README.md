@@ -14,9 +14,13 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
 - Google Colab was used for training and fine-tuning of the models.
 - Python > 3.6
 - PyTorch
-- Torchtext
+- torchtext==0.6.0
 - MatPlotLib & Scikit Learn Libraries for implementing the model and plotting graphs
 - NLTK for loading and preprocessing the data
+- Transformers library (for GreekBERT)
+- Optuna (for hyperparameter tuning)
+- SpaCy (el_core_news_sm) for Greek_Stemming
+- 
 
 # Logistic Regression 
 ([Kaggle_competition](https://www.kaggle.com/competitions/ys19-2023-assignment-1))
