@@ -78,6 +78,10 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
 - Experiment Workflow
   - Use the same experimentation settings in both BERT models: GreekBERT_uncased_v1 and DistilGREEK-BERT
   - Find those hyperparameters that minimize the validation loss and maximize validation accuracy in each language model.
+- BERT_for Sequence Classification:
+- Instead of using the BertForSequenceClassification class, a custom classifier was added on top of the original GreekBERT model architecture (Single-layer FFNN(768,50)+output_layer(50,3) +softmax)
+  ![image](https://github.com/Kleo-Karap/Artifficial_Intelligence_2/assets/117507917/cc70f7d4-8ace-412a-af74-d27006bfd4e6)
+
 - Hyperparameter tuning:
   - Epochs:2,3,4
   - Learning rate: 5e-5,3e-5,2e-5
