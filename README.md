@@ -19,8 +19,8 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
 - NLTK for loading and preprocessing the data
 - Transformers library (for GreekBERT)
 - Optuna (for hyperparameter tuning)
-- SpaCy (el_core_news_sm) for Greek_Stemming
-- 
+- SpaCy (el_core_news_sm)
+- gensim (Word2Vec model)
 
 # Logistic Regression 
 ([Kaggle_competition](https://www.kaggle.com/competitions/ys19-2023-assignment-1))
@@ -107,5 +107,7 @@ and false neutrals, making it hard to verify the applicability of the experiment
 One step towards improving this project is definitely data curation and more in-depth exploration of the tweet content to understand deeper patterns indicating emotion and specific handling of tweets with no textual content, containing only links and hashtags.
 # References 
 Extensive literature list can be found in the last section of each report
+- Sentiment lexica from:[Greek-Sentiment-Analysis](https://github.com/NKryst/Greek-Sentiment-Analysis/tree/master)
+- Code for Stemming: https://gist.github.com/Patelis-GM/e1f8cf553f27ff40ed49db8c310611b3
 - [pytorch-sentiment-analysis](https://github.com/bentrevett/pytorch-sentiment-analysis/tree/main)
 - [Tutorial: Fine tuning BERT for Sentiment Analysis](https://skimai.com/fine-tuning-bert-for-sentiment-analysis/)
