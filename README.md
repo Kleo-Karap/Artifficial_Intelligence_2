@@ -20,7 +20,7 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
 # Logistic Regression 
 ([Kaggle_competition](https://www.kaggle.com/competitions/ys19-2023-assignment-1))
 - Experiment Workflow: Uni-Bi-Trigrams with TF-IDF and Countvectorizer
-- Features: N_grams, count of positive, ount of negative words per tweet, tweet length in tokens
+- Features: vectorised N_grams, count of positive, ount of negative words per tweet, tweet length in tokens
 - Hyperparameter tuning: GridSearchCV (cv=5)
 - Chosen model:
   - TF-IDF (uni-grams)
@@ -30,7 +30,12 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
   - regularization: L1 (Lasso regression)
 # Feeforward Neural Networks
 ([Kaggle_competition](https://www.kaggle.com/competitions/ys19-2023-assignment-2))
-- Experiment Workflow
+- Experiment Workflow: FFNN with different:
+  - activation functions: ReLU, Randomized Leaky ReLU, SELU (Self-normalizing neural nets)
+  - optimizers: Adam, RMSProp
+  - weight initialization: He, Glorot, LeCun
+  - regularization techniques: dropout, batch normalisation, StandardScaler
+  - output activation function: sigmoid, softmax
 - Chosen model
 # Recurrent Neural Networks (RNNs) with LSTM/GRU cells
 ([Kaggle_competition](https://www.kaggle.com/competitions/ys19-2023-assignment-3))
