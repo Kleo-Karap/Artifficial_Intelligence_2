@@ -18,7 +18,8 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
 - NLTK for loading and preprocessing the data
 
 # Logistic Regression
-
+- Experiment Workflow
+- Chosen model
 # Feeforward Neural Networks
 
 # Recurrent Neural Networks (RNNs) with LSTM/GRU cells
