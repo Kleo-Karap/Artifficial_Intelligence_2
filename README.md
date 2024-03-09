@@ -96,7 +96,7 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
     - Batch_size: 16
     - Lr: 5e-5
 # Overal Comparison
-
+Evaluation results can be thorougly reviewed in the corresponding project reports
 # Contributor Expectations 
 
 # References
