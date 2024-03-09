@@ -98,7 +98,7 @@ All 4 projects were implemented in the framework of Kaggle competitions for the 
 # Overal Comparison
 Text preprocessing and evaluation results can be thorougly reviewed in the corresponding project reports.
 The GreekBERT model was the one to achieve the best performance in validation accuracy and loss (acc:0.43, loss: 1.045), which confirmed that the power of pretraining knowledge along with 2 epochs finetuning is enough to outperform training more complex neural network architectures. Nevertheless, it is important to note that the source dataset itself contains a lot of false positives, false negatives 
-and false neutrals, making it hard to verify the applicability of the experimentation settings above.
+and false neutrals, making it hard to verify the applicability of the experimentation settings above. We aknowledge that the classifier's best performance is still equal to random guessing.
 # Contributor Expectations 
 One step towards improving this project is definitely data curation and more in-depth exploration of the tweet content to understand deeper patterns indicating emotion and specific handling of tweets with no textual content, containing only links and hashtags.
 # References 
